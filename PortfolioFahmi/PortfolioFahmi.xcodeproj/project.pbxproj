@@ -30,6 +30,8 @@
 		584C28EF29F964C800C22302 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 584C28DD29F964C800C22302 /* Montserrat-SemiBold.ttf */; };
 		584C28F029F964C800C22302 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 584C28DE29F964C800C22302 /* Montserrat-ExtraBold.ttf */; };
 		584C28F429F967BE00C22302 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C28F329F967BE00C22302 /* ColorExtensions.swift */; };
+		58BEFB7329FE3B5D00C9EFC9 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BEFB7229FE3B5D00C9EFC9 /* ExperienceView.swift */; };
+		58BEFB7529FE3EB500C9EFC9 /* ExperiencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BEFB7429FE3EB500C9EFC9 /* ExperiencesView.swift */; };
 		58DD812329F961E300C1056C /* PortfolioFahmiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD812229F961E300C1056C /* PortfolioFahmiApp.swift */; };
 		58DD812529F961E400C1056C /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD812429F961E400C1056C /* PortfolioView.swift */; };
 		58DD812729F961E500C1056C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DD812629F961E500C1056C /* Assets.xcassets */; };
@@ -63,6 +65,8 @@
 		584C28DE29F964C800C22302 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		584C28F129F965C700C22302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		584C28F329F967BE00C22302 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		58BEFB7229FE3B5D00C9EFC9 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		58BEFB7429FE3EB500C9EFC9 /* ExperiencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesView.swift; sourceTree = "<group>"; };
 		58DD811F29F961E300C1056C /* PortfolioFahmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioFahmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DD812229F961E300C1056C /* PortfolioFahmiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioFahmiApp.swift; sourceTree = "<group>"; };
 		58DD812429F961E400C1056C /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				583519AF29F999C90091229C /* HeaderView.swift */,
 				58DF4DAD29FC02960088C764 /* SkillView.swift */,
 				58DF4DAF29FCFCE40088C764 /* SkillsView.swift */,
+				58BEFB7229FE3B5D00C9EFC9 /* ExperienceView.swift */,
+				58BEFB7429FE3EB500C9EFC9 /* ExperiencesView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -315,12 +321,14 @@
 			files = (
 				58DD812529F961E400C1056C /* PortfolioView.swift in Sources */,
 				583519AD29F994360091229C /* AppModel.swift in Sources */,
+				58BEFB7529FE3EB500C9EFC9 /* ExperiencesView.swift in Sources */,
 				58DD812329F961E300C1056C /* PortfolioFahmiApp.swift in Sources */,
 				58DF4DB029FCFCE40088C764 /* SkillsView.swift in Sources */,
 				583519A929F992850091229C /* FontManager.swift in Sources */,
 				58DF4DAE29FC02960088C764 /* SkillView.swift in Sources */,
 				584C28F429F967BE00C22302 /* ColorExtensions.swift in Sources */,
 				583519AB29F993250091229C /* Portfolio.swift in Sources */,
+				58BEFB7329FE3B5D00C9EFC9 /* ExperienceView.swift in Sources */,
 				583519B029F999C90091229C /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
